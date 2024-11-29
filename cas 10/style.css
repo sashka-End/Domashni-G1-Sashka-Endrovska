@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 175px;
+  background-color: gray;
+}
+nav {
+  background-color: cornflowerblue;
+}
+h1 {
+  font-size: 50px;
+  padding: 10px 200px 10px 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+li.lists {
+  display: inline-block;
+}
+.li {
+  border: 5px dashed rgb(255, 251, 139);
+  border-radius: 20%;
+  padding: 5px 15px;
+  margin: 0 20px;
+  position: relative;
+  bottom: 10px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(14, 34, 105);
+}
+
+.li:hover {
+  background-color: rgb(255, 255, 255);
+  border: 5px dashed black;
+  cursor: pointer;
+  color: black;
+  font-family: cursive;
+}
+.s-One {
+  background-color: lightblue;
+  width: 800px;
+  height: 1100px;
+  float: left;
+}
+#atlantis {
+  width: 380px;
+  box-shadow: 0px 1px 17px 24px rgba(255, 255, 255, 1);
+  position: relative;
+
+  top: 37px;
+  left: 50px;
+}
+.star {
+  position: absolute;
+  top: 470px;
+  left: 50px;
+  font-size: 35px;
+}
+
+.movie {
+  position: relative;
+  bottom: 500px;
+  left: 450px;
+}
+h2 {
+  font-size: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  position: relative;
+  right: 230px;
+  top: -40px;
+}
+.span {
+  font-size: 45px;
+}
+.date {
+  padding-bottom: 8px;
+  font-style: italic;
+  font-size: 13px;
+  position: relative;
+  left: 50px;
+  top: 30px;
+}
+.description {
+  width: 250px;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  left: 45px;
+}
+
+.s-Two {
+  background-color: rgb(19, 88, 99);
+  float: right;
+  width: 368px;
+  height: 1100px;
+}
+
+video {
+  position: relative;
+  bottom: 330px;
+  left: 75px;
+}
+
+.movies {
+  margin: 20px 60px;
+}
+.title {
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+}
+.images {
+  width: 250px;
+  height: auto;
+}
+
+.s-Two {
+  overflow: scroll;
+  scrollbar-color: rgb(99, 206, 255) rgb(255, 255, 255);
+  scrollbar-width: thin;
+  height: 1100px;
+}
+.click {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  cursor: pointer;
+}
+
+footer {
+  background-color: cornflowerblue;
+  height: 300px;
+  position: absolute;
+  width: 1168px;
+  top: 1177px;
+}
+.copyright {
+  font-size: 14px;
+  color: lightgray;
+  position: absolute;
+  top: 250px;
+  left: 450px;
+}
+.icons {
+  margin-left: 100px;
+}
+.imageicon {
+  border-radius: 20%;
+  margin: 0 10px;
+  width: 80px;
+  height: auto;
+  position: relative;
+  left: 150px;
+}
+.footertext {
+  font-style: italic;
+  font-size: 30px;
+  margin: 50px;
+}
+
+.genre {
+  color: lightgray;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#footerimg {
+  border-radius: 100%;
+  width: 200px;
+  height: auto;
+  border: 5px dotted white;
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+  box-shadow: 0px 1px 20px 8px rgba(255, 255, 255, 1);
+}

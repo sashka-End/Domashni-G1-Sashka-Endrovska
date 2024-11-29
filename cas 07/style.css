@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.boxes {
+  width: 600px;
+  height: 580px;
+  background-color: black;
+  margin: 50px 450px;
+}
+
+.box {
+  background-color: blanchedalmond;
+  border: 5px solid black;
+  padding: 20px;
+  position: relative;
+}
+
+.one {
+  position: relative;
+  width: 145px;
+  height: 170px;
+}
+
+.two {
+  position: relative;
+  top: 15px;
+  width: 145px;
+  height: 230px;
+}
+
+.three {
+  background-color: rgb(200, 45, 45);
+  position: relative;
+  left: 150px;
+  bottom: 400px;
+  width: 450px;
+  height: 415px;
+}
+
+.four {
+  background-color: rgb(23, 134, 156);
+  position: relative;
+  bottom: 395px;
+  height: 160px;
+  width: 145px;
+}
+
+.five {
+  height: 160px;
+  width: 415px;
+  position: relative;
+  bottom: 555px;
+  left: 150px;
+}
+
+.six {
+  height: 75px;
+  width: 10px;
+  padding: 0 10px;
+  position: relative;
+  bottom: 715px;
+  left: 570px;
+}
+
+.seven {
+  height: 75px;
+  width: 10px;
+  padding: 0 10px;
+  position: relative;
+  bottom: 705px;
+  left: 570px;
+  background-color: yellow;
+}
